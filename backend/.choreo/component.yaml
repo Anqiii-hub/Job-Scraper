@@ -6,7 +6,7 @@ schemaVersion: 1.0
 endpoints:
   - name: rest-api
     service:
-      basePath: /api-service
+      basePath: /jobposts
       port: 8080
     type: REST
 
