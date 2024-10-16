@@ -1,0 +1,18 @@
+# +required The configuration file schema version
+schemaVersion: 1.0
+
+# +optional Incoming connection details for the component
+endpoints:
+  - name: "REST API"
+    port: 8000
+    type: REST
+    networkVisibility: Public
+    context: /
+
+  # dependencies:
+  #   serviceReferences:
+  #     - name: choreo:///apifirst/mttm/mmvhxd/ad088/v1.0/PUBLIC
+  #       connectionConfig: 19d2648b-d29c-4452-afdd-1b9311e81412
+  #       env:
+  #         - from: ServiceURL
+  #           to: SERVICE_URL
