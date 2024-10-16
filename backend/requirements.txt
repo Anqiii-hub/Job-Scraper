@@ -3,3 +3,5 @@ Djangorestframework
 environs
 requests
 bs4
+psycopg
+psycopg2
