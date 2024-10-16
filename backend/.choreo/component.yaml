@@ -7,6 +7,6 @@ endpoints:
   - name: rest-api
     service:
       basePath: /jobposts
-      port: 8080
+      port: 8000
     type: REST
 
